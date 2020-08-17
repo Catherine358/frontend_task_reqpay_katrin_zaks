@@ -1,0 +1,101 @@
+.details-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 74px;
+}
+
+.detail,
+.form {
+    box-sizing: border-box;
+    margin-left: 3%;
+    margin-top: 32px;
+    background-color: white;
+    flex-basis: 22%;
+    padding-left: 1%;
+}
+
+.detail:nth-child(1 + 4n) {
+    margin-left: 0;
+}
+
+.details-info-container .description {
+    flex-basis: 47%;
+}
+
+.details-info-container h5 {
+    color: rgb(83, 98, 122);
+    font-weight: normal;
+}
+
+.details-info-container p {
+    color: rgb(10, 31, 66);
+    font-weight: normal;
+    margin-top: 0;
+}
+
+form div {
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    font-size: 0.83em;
+}
+
+form input {
+    width: 90%;
+}
+
+.locked {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+
+.details-info-container .age-red {
+    display: inline-block;
+    padding: 5px 15px 5px 10px;
+    background-color: rgb(213 115 112);
+    color: white;
+    border-radius: 5px;
+}
+
+.details-info-container .approved {
+    display: inline-block;
+    padding: 5px 15px 5px 10px;
+    background-color: rgb(108 204 183);
+    color: white;
+    border-radius: 5px;
+}
+
+.detail-header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #505f77;
+}
+
+.detail-header-container i {
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.form {
+    background-color: #3a8ae8;
+    color: white;
+}
+
+.form input {
+    border-color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
+}
+
+.form button {
+    float: right;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
